@@ -1,0 +1,15 @@
+package com.class3;
+
+public class primitiveCasting {
+	public  static void main (String [] arg) {
+		double d=12;
+		System.out.println(d);
+		
+		byte b=127;
+		int i=b;
+		
+		int num=123;
+		double d1=num;
+		System.out.println(d1);
+	}
+}

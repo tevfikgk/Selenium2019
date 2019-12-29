@@ -8,6 +8,6 @@ public class FindElementDemo {
 
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\tevfi\\eclipse-workspace\\SeleniumBatchV\\drivers\\chromedriver_win32\\chromedriver.exe"); 
 		WebDriver driver=new ChromeDriver();
-driver.get(url);
+		//driver.get(url);
 }
 }

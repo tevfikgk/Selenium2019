@@ -1,0 +1,20 @@
+package com.class4;
+
+public class Recap {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+int a=4;
+int b=1;
+if (a<b) 
+{
+	System.out.println("Ali");
+}
+else if (a>=3)
+if (a>b) {
+    System.out.println("Veli");}
+if (a==b) {
+	System.out.println("Deli");}
+	}
+
+}

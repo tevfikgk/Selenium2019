@@ -1,0 +1,35 @@
+package com.class3;
+
+public class DoubleComparation {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	double x=8.5;
+	double y=7.5;
+	
+	if(x>y) {
+		System.out.println("Double value x is larger than y");
+	}else {
+		System.out.println("Double value x is smaller than y");
+	}
+	
+	int roomTemperature=28;
+	
+	if(roomTemperature<32) {
+		System.out.println("Water will freeze with temperature");
+	}else {
+		System.out.println("Water will not freeze with temperature");
+	}
+	
+	
+	boolean val=false;
+	if(val) {
+		System.out.println("Hello");
+	}else
+		System.out.println("bye");
+			
+	
+	}
+
+}

@@ -1,0 +1,25 @@
+package com.class7;
+
+public class WhilePrintEvenNumbers {
+
+	public static void main(String[] args) {
+
+		
+		int z=2;
+		
+		while (z<=20) {
+			System.out.print(z);
+			z+=2;
+		}
+	int q=1;
+	while (q<20) {
+		if (q%2==0) {
+			System.out.println(q);
+		}q++;
+	}
+	
+	
+}	
+	
+
+}

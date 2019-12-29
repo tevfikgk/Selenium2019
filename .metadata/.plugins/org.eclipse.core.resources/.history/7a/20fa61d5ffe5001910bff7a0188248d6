@@ -1,0 +1,30 @@
+package com.class4;
+
+import java.util.Scanner;
+
+public class Recap {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	Scanner	scan=new Scanner(System.in);
+	
+	int secenek;
+	secenek=scan.nextInt();
+		
+		
+		
+/*int a=4;
+int b=1;
+if (a<b) 
+{
+	System.out.println("Ali");
+}
+else if (a>=3)
+if (a>b) {
+    System.out.println("Veli");}
+if (a==b) {
+	System.out.println("Deli");}*/
+	}
+
+}

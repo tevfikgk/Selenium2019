@@ -24,7 +24,7 @@ public class IDLocator {
 		driver.findElement(By.className("button")).click();
 		//Thread.sleep(3000);
 		//driver.findElement(By.linkText("Welcome Admin")).click();
-		//driver.findElement(By.partialLinkText("Welcome")); //*****partial link  
+		driver.findElement(By.partialLinkText("Welcome")).click(); //*****partial link  
 		Thread.sleep(3000);
 		//driver.findElement(By.linkText("Logout")).click();
 		

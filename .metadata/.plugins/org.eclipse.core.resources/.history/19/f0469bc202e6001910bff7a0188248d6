@@ -1,0 +1,34 @@
+package com.class4;
+
+import java.util.Scanner;
+
+public class Recap {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	Scanner	scan=new Scanner(System.in);
+	System.out.print("First number");
+	int a,b;
+	a=scan.nextInt();
+	System.out.print("Second number");
+	b=scan.nextInt();
+	int c=a+b;
+	System.out.println("Sayilarin toplami "+ c +" dir");
+		
+		
+		
+/*int a=4;
+int b=1;
+if (a<b) 
+{
+	System.out.println("Ali");
+}
+else if (a>=3)
+if (a>b) {
+    System.out.println("Veli");}
+if (a==b) {
+	System.out.println("Deli");}*/
+	}
+
+}

@@ -1,0 +1,26 @@
+package com.class23;
+
+public class TestClass {
+
+	public static String patientName;
+	public double length;
+	public int weigth;
+	
+	
+	TestClass(){
+	
+	}
+	TestClass(double patientLength ,int patientWeight){
+	double length=patientLength;
+	int weight=patientWeight;
+	}
+	TestClass void situation() {
+	System.out.println("Patient name "+patientName+" patient length: "+length+ " feet"+ " patient weigth:"+weight+" pound");
+	}
+
+	public static void main(String[] args) {
+		String patientName="Ali Usta";
+		TestClass str1=new TestClass(5.7,185);
+		str1.situation();
+	}
+}

@@ -1,0 +1,20 @@
+package com.class23;
+
+public class ConstructorDemo {
+
+	ConstructorDemo(){
+		
+		System.out.println("I am your constructor");
+	}
+	public void hello() {
+		System.out.println("Hello Class");
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		ConstructorDemo obj=new ConstructorDemo();
+		obj.hello();
+		
+	}
+
+}

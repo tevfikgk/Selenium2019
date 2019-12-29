@@ -1,0 +1,19 @@
+package com.class3;
+
+public class DoubleComparation {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	double x=8.5;
+	double y=7.5;
+	
+	if(x>y) {
+		System.out.println("Double value x is larger than y");
+	}else {
+		System.out.println("Double value x is smallerthan y");
+	}
+	
+	}
+
+}

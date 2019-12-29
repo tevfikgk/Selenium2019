@@ -1,5 +1,6 @@
 package com.class01;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -19,7 +20,14 @@ public class LunchChromeBrowser {
 		} else {
 			System.out.println("sorry this is not the title");
 		}
+		//driver.findElement(By.name("q")).sendKeys("hello");
+		//driver.findElement(By.name("btnK")).click();
+		//driver.findElement(By.linkText("About")).click();
+		driver.findElement(By.className("gb_g")).click();
 		
+		//**         //tag[@attribute=’value’] 
+		
+		driver.findElement(By.xpath("//a[@ga-on='_click']")).click();
 		
 		/*Thread.sleep(1000);
 		driver.navigate().to("http://www.facebook.com");

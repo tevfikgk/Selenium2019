@@ -1,0 +1,13 @@
+package com.class04;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class CheckBoxDemo extends CommandMethods {
+
+	public static void main(String[] args) {
+		
+		CommandMethods.setUp("chrome");
+		driver.get("https://google.com");
+}
+}

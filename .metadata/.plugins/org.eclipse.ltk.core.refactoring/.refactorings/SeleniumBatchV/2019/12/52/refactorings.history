@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.class04.CommandMethods&apos; to &apos;CommonMethods&apos;&#x0D;&#x0A;- Original project: &apos;SeleniumBatchV&apos;&#x0D;&#x0A;- Original element: &apos;com.class04.CommandMethods&apos;&#x0D;&#x0A;- Renamed element: &apos;com.class04.CommonMethods&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;CommandMethods&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.class04{CommandMethods.java[CommandMethods" matchStrategy="1" name="CommonMethods" qualified="false" references="true" similarDeclarations="false" stamp="1577550110120" textual="false" version="1.0"/>
+</session>

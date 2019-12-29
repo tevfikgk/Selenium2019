@@ -14,12 +14,15 @@ public class CssselectorDemo {
 			WebDriver driver=new ChromeDriver();
 			
 			driver.get("http://166.62.36.207/humanresources/symfony/web/index.php/auth/login"); 
+			
+			
 			driver.findElement(By.cssSelector("input[name='txtUsername']")).sendKeys("sohl"); 
-			//input#txtUsername works only if you have id attribute
-			//input.button dot(.) use  for class. If there is class value  //if class and has space clean it******
+			
+			//input#txtUsername    # works only if you have an id attribute
+			//input.button         dot(.) works  for class. If there is class value  //if class and has space not works. Clean it or replace with "__ ******
 			// input[name^='txt']  // (^) means starts with CSS Selector
 			// input[name$='name']  // ($) means ends with CSS Selector
-			// input[name*='nL']  // (*) means ends with CSS Selector
+			// input[id*='nL']  // (*) keyword represents contains in CSS Selector
 	}
 
 }

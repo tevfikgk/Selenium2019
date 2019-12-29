@@ -1,0 +1,20 @@
+package com.class7;
+
+import java.util.Scanner;
+
+public class LoopScanner {
+
+	public static void main(String[] args) {
+
+		Scanner scan=new Scanner(System.in);
+		int sayi;
+		
+				
+		do 	{System.out.println("Please enter your name");	
+			String userName=scan.nextLine();
+			sayi=5;
+		}
+		while (sayi<=5);
+	}
+
+}

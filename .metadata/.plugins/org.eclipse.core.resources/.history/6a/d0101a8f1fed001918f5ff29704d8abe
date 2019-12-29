@@ -1,0 +1,16 @@
+package com.class7;
+
+public class DoWhileEvenNumbers {
+public static void main(String[] args) {
+	
+	
+	int number=20;
+	
+	do {
+		System.out.println(number);
+	number+=2;
+	}		
+	while (number<=50); 
+		
+}
+}
