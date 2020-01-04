@@ -13,6 +13,7 @@ public class Example1 {
 		WebDriver driver=new ChromeDriver();
 		
 		driver.get("https://www.facebook.com/");
+		driver.manage().window().fullscreen();
 		driver.findElement(By.id("email")).sendKeys("4693369201");
 		driver.findElement(By.name("pass")).sendKeys("ttGG123456");
 		driver.findElement(By.id("u_0_b")).click();

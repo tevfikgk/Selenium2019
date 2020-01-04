@@ -8,7 +8,11 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class CommonMethods {
 	
 	public static WebDriver driver;
-	
+	/**
+	 * Use this method in need of opening browser and target url
+	 * @param browser The desired browser
+	 * @param url
+	 */
 	public static void setUp(String browser,String url) {
 	if (browser.equalsIgnoreCase("chrome")) {
 			System.setProperty("webdriver.chrome.driver","C:\\Users\\tevfi\\eclipse-workspace\\SeleniumBatchV\\drivers\\chromedriver_win32\\chromedriver.exe" );
@@ -18,6 +22,8 @@ public class CommonMethods {
 			System.setProperty("webdriver.gecko.driver","geckodriver.exe" );
 			driver=new FirefoxDriver();
 			driver.get(url);
+		}else {
+			System.err.println("Browser not supported");
 		}
 	}
 }

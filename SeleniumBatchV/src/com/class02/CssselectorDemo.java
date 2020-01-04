@@ -17,12 +17,17 @@ public class CssselectorDemo {
 			
 			
 			driver.findElement(By.cssSelector("input[name='txtUsername']")).sendKeys("sohl"); 
+			//tagName[attribute='value']
+			//[atribute='value'] (you can skip tagname
 			
-			//input#txtUsername    # works only if you have an id attribute
-			//input.button         dot(.) works  for class. If there is class value  //if class and has space not works. Clean it or replace with "__ ******
-			// input[name^='txt']  // (^) means starts with CSS Selector
-			// input[name$='name']  // ($) means ends with CSS Selector
-			// input[id*='nL']  // (*) keyword represents contains in CSS Selector
+			//  tagName#id (input#txtUsername)    # works only if you have an id attribute
+			//	#id (even you can skip tagName)
+			//  tg.className (input.button)         dot(.) works  only if you have class value. //if class and has space not works. Clean it or replace with "__ ******
+			
+			//  input[name^='txt']  // (^) means starts with CSS Selector
+			//  input[name$='name']  // ($) means ends with CSS Selector
+			
+			//  input[id*='nL']  // (*) keyword represents contains in CSS Selector
 	}
 
 }

@@ -22,7 +22,7 @@ public class WebElementCommandDemo2 {
 		
 		
 		List <WebElement> links=driver.findElements(By.tagName("a")); //findElements returns group of WebElement. Return list
-		//if there is no element findeleement return execption. Findelements returns empty list
+		//if there is no element findelement return execption. Findelements returns empty list
 		System.out.println(links.size());
 
 		for (WebElement link:links) {
