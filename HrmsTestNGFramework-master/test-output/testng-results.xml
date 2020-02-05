@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="7" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Regression Suite" duration-ms="84461" started-at="2020-01-25T13:30:00 EST" finished-at="2020-01-25T13:31:25 EST">
+    <groups>
+      <group name="regression">
+        <method signature="AddEmployeePageTest.addMultipleEmpoyee(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.hrms.testcases.AddEmployeePageTest@2833cc44]" name="addMultipleEmpoyee" class="com.hrms.testcases.AddEmployeePageTest"/>
+        <method signature="LeaveListPageTest.leaveLabelvalidation()[pri:0, instance:com.hrms.testcases.LeaveListPageTest@1786dec2]" name="leaveLabelvalidation" class="com.hrms.testcases.LeaveListPageTest"/>
+      </group> <!-- regression -->
+    </groups>
+    <test name="Regression Test" duration-ms="84461" started-at="2020-01-25T13:30:00 EST" finished-at="2020-01-25T13:31:25 EST">
+      <class name="com.hrms.testcases.AddEmployeePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hrms.testcases.AddEmployeePageTest@2833cc44]" name="setUp" is-config="true" duration-ms="2465" started-at="2020-01-25T13:30:16 EST" finished-at="2020-01-25T13:30:19 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="addMultipleEmpoyee(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.hrms.testcases.AddEmployeePageTest@2833cc44]" name="addMultipleEmpoyee" duration-ms="16139" started-at="2020-01-25T13:30:19 EST" data-provider="getData" finished-at="2020-01-25T13:30:35 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[John]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[J]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Smith]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addMultipleEmpoyee -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hrms.testcases.AddEmployeePageTest@2833cc44]" name="tearDown" is-config="true" duration-ms="101" started-at="2020-01-25T13:30:35 EST" finished-at="2020-01-25T13:30:35 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hrms.testcases.AddEmployeePageTest@2833cc44]" name="setUp" is-config="true" duration-ms="10473" started-at="2020-01-25T13:30:35 EST" finished-at="2020-01-25T13:30:46 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="addMultipleEmpoyee(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.hrms.testcases.AddEmployeePageTest@2833cc44]" name="addMultipleEmpoyee" duration-ms="37940" started-at="2020-01-25T13:30:46 EST" data-provider="getData" finished-at="2020-01-25T13:31:24 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jane]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[S]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Smith]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addMultipleEmpoyee -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hrms.testcases.AddEmployeePageTest@2833cc44]" name="tearDown" is-config="true" duration-ms="95" started-at="2020-01-25T13:31:24 EST" finished-at="2020-01-25T13:31:24 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.hrms.testcases.AddEmployeePageTest -->
+      <class name="com.hrms.testcases.LeaveListPageTest">
+        <test-method status="PASS" signature="generateReports()[pri:0, instance:com.hrms.testcases.LeaveListPageTest@1786dec2]" name="generateReports" is-config="true" duration-ms="106" started-at="2020-01-25T13:30:00 EST" finished-at="2020-01-25T13:30:00 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReports -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hrms.testcases.LeaveListPageTest@1786dec2]" name="setUp" is-config="true" duration-ms="3005" started-at="2020-01-25T13:30:00 EST" finished-at="2020-01-25T13:30:03 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="leaveLabelvalidation()[pri:0, instance:com.hrms.testcases.LeaveListPageTest@1786dec2]" name="leaveLabelvalidation" duration-ms="12054" started-at="2020-01-25T13:30:03 EST" finished-at="2020-01-25T13:30:15 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- leaveLabelvalidation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hrms.testcases.LeaveListPageTest@1786dec2]" name="tearDown" is-config="true" duration-ms="95" started-at="2020-01-25T13:30:16 EST" finished-at="2020-01-25T13:30:16 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="writeReport()[pri:0, instance:com.hrms.testcases.LeaveListPageTest@1786dec2]" name="writeReport" is-config="true" duration-ms="466" started-at="2020-01-25T13:31:24 EST" finished-at="2020-01-25T13:31:25 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- writeReport -->
+      </class> <!-- com.hrms.testcases.LeaveListPageTest -->
+    </test> <!-- Regression Test -->
+  </suite> <!-- Regression Suite -->
+</testng-results>

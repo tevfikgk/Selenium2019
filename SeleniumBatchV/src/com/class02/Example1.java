@@ -17,6 +17,8 @@ public class Example1 {
 		driver.findElement(By.id("email")).sendKeys("4693369201");
 		driver.findElement(By.name("pass")).sendKeys("ttGG123456");
 		driver.findElement(By.id("u_0_b")).click();
+		
+		driver.navigate();
 		//Thread.sleep(15000);
 		//driver.findElement(By.className("linkWrap noCount")).click();
 	

@@ -11,7 +11,7 @@ public class RadioButtonDemo extends CommonMethods{
 
 	public static final String SYNTAX_PRACTICE_URL=" http://166.62.36.207/syntaxpractice/index.html";
 	
-	public static void main(String[] args) throws InterruptedException {
+	public static void main(String[] args) throws InterruptedException  {
 
 		//Opening browser with url
 		CommonMethods.setUp("chrome", SYNTAX_PRACTICE_URL);
@@ -28,7 +28,9 @@ public class RadioButtonDemo extends CommonMethods{
 		List<WebElement> radioButtons=driver.findElements(By.name("optradio"));
 		
 		for(int i=0; i<radioButtons.size(); i++) {
-			radioButtons.get(i);
+			
+			
+			//radioButtons.get(i).click();
 			Thread.sleep(1000);
 		}
 		

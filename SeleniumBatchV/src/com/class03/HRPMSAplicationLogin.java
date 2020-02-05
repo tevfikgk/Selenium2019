@@ -17,7 +17,7 @@ public class HRPMSAplicationLogin {
 		
 		WebElement emptyMessage= driver.findElement(By.xpath("//span[@id='spanMessage']"));
 		emptyMessage.isDisplayed();
-		if (errorMessage.equalsIgnoreCase("Password cannot be Empty")) {
+		if (emptyMessage.equals("Password cannot be Empty")) {
 		System.out.println("everything goes well");
 		} else {System.out.println("something goes wrong");}
 	}

@@ -2,6 +2,8 @@ package com.class04;
 
 import org.openqa.selenium.By;
 
+import com.utils.CommonMethods;
+
 public class RadioButtonPractise extends CommonMethods {
 /*TC 2: Radio Buttons Practice  
 Open chrome browser
@@ -18,7 +20,7 @@ Quit browser
 		
 		public static void main(String[] args) {
 			
-			CommonMethods.setUp("chrome");
+			//CommonMethods.setUp("chrome");
 			driver.get(HRMS_URL);
 			driver.findElement(By.xpath("//a[@href='#']")).click();
 			driver.findElement(By.linkText("Radio Buttons Demo")).click();

@@ -30,9 +30,9 @@ public class DropDownDemo2 extends CommonMethods{
 		System.out.println(option.get(3));
 		
 		for (WebElement element:option) {
-			//element.getAttribute("value");
+			element.getAttribute("value");
 			String ddValue=element.getText();
-			//System.out.println(ddValue);
+			System.out.println(ddValue);
 			if (ddValue.equals("Friday")) {
 				element.click();			}
 		}

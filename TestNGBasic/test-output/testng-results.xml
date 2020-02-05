@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="4" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="24966" started-at="2020-01-17T08:29:25 MST" finished-at="2020-01-17T08:29:50 MST">
+    <groups>
+      <group name="regression">
+        <method signature="TitleAndLoginVerification.loginVerification()[pri:2, instance:com.class5.TitleAndLoginVerification@3701eaf6]" name="loginVerification" class="com.class5.TitleAndLoginVerification"/>
+        <method signature="LogoAndLogin.loginVerification()[pri:2, instance:com.class5.LogoAndLogin@5c5a1b69]" name="loginVerification" class="com.class5.LogoAndLogin"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="TitleAndLoginVerification.titleVerification()[pri:1, instance:com.class5.TitleAndLoginVerification@3701eaf6]" name="titleVerification" class="com.class5.TitleAndLoginVerification"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Test" duration-ms="24966" started-at="2020-01-17T08:29:25 MST" finished-at="2020-01-17T08:29:50 MST">
+      <class name="com.class5.LogoAndLogin">
+        <test-method status="PASS" signature="openandNavigate()[pri:0, instance:com.class5.LogoAndLogin@5c5a1b69]" name="openandNavigate" is-config="true" duration-ms="4511" started-at="2020-01-17T08:29:25 MST" finished-at="2020-01-17T08:29:30 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openandNavigate -->
+        <test-method status="PASS" signature="loginVerification()[pri:2, instance:com.class5.LogoAndLogin@5c5a1b69]" name="loginVerification" duration-ms="1881" started-at="2020-01-17T08:29:30 MST" finished-at="2020-01-17T08:29:32 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginVerification -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.class5.LogoAndLogin@5c5a1b69]" name="closeBrowser" is-config="true" duration-ms="651" started-at="2020-01-17T08:29:32 MST" finished-at="2020-01-17T08:29:32 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.class5.LogoAndLogin -->
+      <class name="com.class5.TitleAndLoginVerification">
+        <test-method status="PASS" signature="openandNavigate()[pri:0, instance:com.class5.TitleAndLoginVerification@3701eaf6]" name="openandNavigate" is-config="true" duration-ms="3794" started-at="2020-01-17T08:29:32 MST" finished-at="2020-01-17T08:29:36 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openandNavigate -->
+        <test-method status="PASS" signature="titleVerification()[pri:1, instance:com.class5.TitleAndLoginVerification@3701eaf6]" name="titleVerification" duration-ms="14" started-at="2020-01-17T08:29:36 MST" finished-at="2020-01-17T08:29:36 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleVerification -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.class5.TitleAndLoginVerification@3701eaf6]" name="closeBrowser" is-config="true" duration-ms="638" started-at="2020-01-17T08:29:36 MST" finished-at="2020-01-17T08:29:37 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="openandNavigate()[pri:0, instance:com.class5.TitleAndLoginVerification@3701eaf6]" name="openandNavigate" is-config="true" duration-ms="3774" started-at="2020-01-17T08:29:37 MST" finished-at="2020-01-17T08:29:40 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openandNavigate -->
+        <test-method status="PASS" signature="loginVerification()[pri:2, instance:com.class5.TitleAndLoginVerification@3701eaf6]" name="loginVerification" duration-ms="9008" started-at="2020-01-17T08:29:40 MST" depends-on-methods="com.class5.TitleAndLoginVerification.titleVerification" finished-at="2020-01-17T08:29:49 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginVerification -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.class5.TitleAndLoginVerification@3701eaf6]" name="closeBrowser" is-config="true" duration-ms="651" started-at="2020-01-17T08:29:49 MST" finished-at="2020-01-17T08:29:50 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.class5.TitleAndLoginVerification -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
